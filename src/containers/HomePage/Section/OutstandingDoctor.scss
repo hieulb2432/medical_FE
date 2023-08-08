@@ -1,0 +1,27 @@
+.section-outstanding-doctor {
+    .outer-bg {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 10px;
+    }
+  
+    .position {
+      h3 {
+        font-size: 13px;
+      }
+      p {
+        font-size: 12px;
+      }
+    }
+  
+    .slick-slide > div {
+      // border: 1px solid rgb(185, 111, 111);
+      padding: 10px 5px;
+      position: relative;
+      transition: transform 0.3s ease;
+    }
+
+    .slick-slide > div:hover {
+      transform: translateY(-10px);
+    }
+  }

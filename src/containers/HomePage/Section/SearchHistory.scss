@@ -1,0 +1,123 @@
+.container {
+    height: auto!important;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    .section-header {
+        height: 60px;
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .title-section {
+            font-size: 24px;
+            font-weight: bold;
+            padding: 15px 0px 5px 0px;
+        }
+    }
+    .form-control-customize {
+        width: 62%;
+    }
+    
+    .getCode-btn {
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .search-btn {
+        margin-top: 10px;
+        margin-bottom: 10px
+    }
+
+    .fa-angle-down {
+        transform: rotate(0deg);
+        transition: transform 0.3s ease-in-out;
+    }
+      
+    .fa-angle-up {
+    transform: rotate(180deg);
+    transition: transform 0.3s ease-in-out;
+    }
+
+    .customize-icon {
+    display: flex;
+    align-items: center;
+    right: 0px !important;
+
+    }
+    
+    .angle {
+    height: 50%;
+    justify-content: center;
+    display: flex;
+    background: #d8d5dbc7;
+    font-size: 20px;
+    }
+
+    .search-info-user {
+        display: block;
+        .user-info {
+            margin-top: 10px;
+            margin-bottom: 15px;
+            .user-info-title {}
+            .user-info-content {}
+        }
+        .user-history {
+            .user-history-title {}
+            .user-history-content {
+                .table-manage-patient {
+                    td {
+                        text-align: left;
+                        padding: 8px;
+                    }
+                    
+                    tr:nth-child(even){background-color: #f2f2f2}
+                    
+                    th {
+                        background-color: #06a9b1;
+                        color: white;
+                        text-align: center;
+                        padding: 8px;
+                    }
+            
+                    .btn-primary {
+                        background-color: orange!important;
+                        border-color: orange !important;
+                    }
+                    .pagination {
+                        float: right;
+                        button {
+                            text-decoration: none;
+                            display: inline-block;
+                            padding: 8px 16px;
+                            border: none;
+                            background-color: transparent;
+                          }
+                          
+                        button:hover {
+                        background-color: #ddd;
+                        color: black;
+                        }
+                        
+                        .previous {
+                        background-color: #f1f1f1;
+                        color: black;
+                        }
+                        
+                        .next {
+                        background-color: #06a9b1;
+                        color: white;
+                        }
+                        
+                        .round {
+                        border-radius: 50%;
+                        }
+
+                        .disable {
+                            pointer-events:none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

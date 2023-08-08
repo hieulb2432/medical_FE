@@ -1,0 +1,85 @@
+.container {
+    .row {
+        .content-up {
+            width: 200px;
+            height: 200px;
+            background-color: #f00;
+            .content-right {}
+            .content-left {}
+        }
+        .content-down {
+            display: flex;
+            .list-item {
+                min-height: 185px;
+                width: 80%;
+                padding: 30px 15px 20px;
+                text-decoration: none;
+                background-color: #ffffffdb;
+                transition: all 0.1s;
+            }
+            .list-item:hover {
+                background-color: #89e2e7db;
+            }
+            .doctor {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+                .doctor-number {
+                    text-align: center;
+                    font-size: 25px;
+                    font-weight: 600;
+                }
+                i {
+                    font-size: 4em;
+                    color: #05a1a8db;
+                }
+            }
+            .patient {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+                .doctor-number {
+                    text-align: center;
+                    font-size: 25px;
+                    font-weight: 600;
+                }
+                i {
+                    font-size: 4em;
+                    color: #05a1a8db;
+                }
+            }
+            .clinic {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+                .doctor-number {
+                    text-align: center;
+                    font-size: 25px;
+                    font-weight: 600;
+                }
+                i {
+                    font-size: 4em;
+                    color: #05a1a8db;
+                }
+            }
+            .specialty {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+                .doctor-number {
+                    text-align: center;
+                    font-size: 25px;
+                    font-weight: 600;
+                }
+                i {
+                    font-size: 4em;
+                    color: #05a1a8db;
+                }
+            }
+        }
+    }
+}

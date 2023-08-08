@@ -1,0 +1,112 @@
+.detail-clinic-container {
+    .description-clinic {
+      padding: 10px;
+      margin: 15px 0;
+      background-color: white;
+  
+      h1,
+      h2,
+      h3 {
+        font-size: 16px;
+        font-weight: 600;
+      }
+    }
+    .detail-clinic-body {
+      padding: 0 100px;
+      background-color: #eee;
+      display: flex;
+      flex-direction: column;
+    }
+    .search-sp-doctor {
+      select {
+        height: 30px;
+        padding: 5px 8px;
+        border: none;
+        outline: none;
+        border-radius: 3px;
+        cursor: pointer;
+      }
+    }
+    .each-doctor {
+      display: flex;
+      width: 100%;
+      min-height: 300px;
+      margin: 15px 0;
+      padding: 10px;
+      background-color: #fff;
+      box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+      border-radius: 8px;
+      .dt-content-left {
+        width: 50%;
+        // border-right: 1px solid #ddd;
+      }
+      .dt-content-right {
+        width: 50%;
+        padding: 10px;
+        .doctor-schedule {
+          .doctor-schedule-container {
+            // border-right: unset !important;
+          }
+        }
+        .doctor-extra-infor {
+          border-top: 1px solid #ddd;
+          margin-top: 10px;
+          padding-top: 10px;
+        }
+      }
+    }
+    .detail-specialty {
+      .each-specialty {
+        display: flex;
+        width: 100%;
+        min-height: 200px;
+        margin: 15px 0;
+        padding: 10px;
+        background-color: #fff;
+        box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+        border-radius: 8px;
+        .content-right {
+          cursor: pointer;
+          .bg-img {
+            height: 150px;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-color: #eee;
+          }
+          .section-specialty {
+            background: #f5f5f5;
+          }
+          .specialty-name {
+            padding: 10px 0;
+            font-size: 15px;
+            font-weight: bold;
+            &:hover {
+              color: #45c3d2;
+            }
+          }
+        }
+        .content-left {
+          .description-html {
+            /* Các style khác của nội dung */
+            // white-space: pre-wrap; /* Hiển thị xuống dòng khi có dấu xuống dòng (\n) */
+          }
+          
+          .description-html.truncated {
+            /* Áp dụng khi nội dung vượt quá 5 dòng */
+            max-height: calc(1em * 11); /* Hiển thị chỉ 5 dòng */
+            overflow: hidden; /* Ẩn nội dung vượt quá 5 dòng */
+            text-overflow: ellipsis; /* Hiển thị ... khi nội dung bị ẩn */
+          }
+          .detail-text {
+            display: block;
+            color: rgb(103, 103, 255);
+          }
+          .detail-text:hover {
+            cursor: pointer;
+            color: blue;
+          }
+        }
+      }
+    }
+  }

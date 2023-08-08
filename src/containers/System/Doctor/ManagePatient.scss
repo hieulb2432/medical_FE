@@ -1,0 +1,33 @@
+div._loading_overlay_wrapper {
+    position: unset;
+    ._loading_overlay_overlay {
+        z-index: 100000;
+    }
+    }
+
+.manage-patient-container {
+    .schedule-container {
+      .row {
+        .table-manage-patient {
+          th, td {
+            text-align: left;
+            padding: 8px;
+          }
+          
+          tr:nth-child(even){background-color: #f2f2f2}
+          
+          th {
+            background-color: #06a9b1;
+            color: white;
+            text-align: center;
+            padding: 8px;
+          }
+  
+          .btn-primary {
+            background-color: orange!important;
+            border-color: orange !important;
+          }
+        }
+      }
+    }
+  }

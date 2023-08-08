@@ -1,0 +1,72 @@
+.manage-schedule-container {
+    .m-s-title {
+      text-transform: uppercase;
+      margin-top: 15px;
+      margin-bottom: 15px;
+      font-weight: 600;
+      font-size: 17px;
+      text-align: center;
+    }
+    .schedule-container .row .doctor-infor {
+      font-size: 20px;
+      font-weight: 600;
+      padding-top: 15px;
+    }
+    .pick-hour-container {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      .btn-schedule {
+        padding: 5px 15px;
+        border: 1px solid grey;
+        &.active {
+          background-color: orange;
+        }
+      }
+      .pick-hour-container-no-schedule {
+        text-transform: uppercase;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-weight: 600;
+        font-size: 17px;
+        text-align: center;
+        width: 100%;
+      }
+    }
+    .btn-save-schedule {
+      margin-top: 20px;
+    }
+    .btn-save-disable {
+      margin-top: 20px;
+      background-color: gray;
+      // cursor: context-menu!important;
+      pointer-events: none
+    }
+  }
+
+.manage-patient-container {
+  .schedule-container {
+    .row {
+      .table-manage-patient {
+        th, td {
+          text-align: center;
+          padding: 8px;
+        }
+        
+        tr:nth-child(even){background-color: #f2f2f2}
+        
+        th {
+          background-color: #06a9b1;
+          color: white;
+        }
+
+        .btn-primary {
+          background-color: orange!important;
+          border-color: orange !important;
+        }
+      }
+    }
+  }
+}

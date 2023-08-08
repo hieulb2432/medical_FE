@@ -1,0 +1,39 @@
+.row {
+    .content-up {}
+    .content-down {
+        .drug-table {
+            
+        }
+    }
+}
+
+.prescription-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .prescription-table th,
+  .prescription-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .prescription-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .prescription-table input {
+    width: 100%;
+    border: none;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  .prescription-table input:focus {
+    outline: none;
+  }
+  
+  .prescription-table button {
+    margin-top: 16px;
+  }

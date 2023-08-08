@@ -1,0 +1,38 @@
+.verify-container {
+  .content {
+    display: block;
+    // flex: 0 0 58.33333333%;
+    max-width: 100%;
+    min-height: 1px;
+    position: relative;
+    border: 0;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    // vertical-align: initial;
+.content-container {
+    background: #ebecf0;
+    border: 2rem solid #fff;
+    border-radius: 5rem;
+    flex-direction: column;
+    gap: 2rem;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    .verify-email-container {
+        .infor-booking {
+          margin-bottom: 10px;
+          font-size: 17px;
+          font-weight: 600;
+          text-align: center;
+          text-transform: uppercase;
+        }
+      }
+  }
+}
+    .homefooter {
+    }
+}
+ 

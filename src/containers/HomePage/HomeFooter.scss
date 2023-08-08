@@ -1,0 +1,83 @@
+.home-footer-container {
+    display: flex;
+    background: #efefef;
+    margin-right: auto;
+    margin-left: auto;
+  .home-footer-content{
+    display: flex;
+    width: 100%;
+    padding: 20px 174.9px;
+    .home-footer-intro{
+      .home-footer-intro-infor {
+        .home-footer-logo {
+          width : 160px;
+          height: 30px;
+          cursor: pointer;
+          margin-bottom: 10px;
+        }
+        .home-footer-title {
+          color: black;
+          font-size: 15px;
+          font-weight: bold;
+          margin: 20px 5px 0 0;
+        }
+        .home-footer-address {
+          .address-logo {
+            margin-right: 10px;
+          }
+        }
+        .home-footer-company-register {
+          .company-register-logo {
+            margin-right: 10px;
+          }
+        }
+      }
+      .home-footer-intro-social{
+        a {
+          font-size:20px;
+          width:40px;
+          height:40px;
+          line-height:40px;
+          display:inline-block;
+          text-align:center;
+          border-radius:50%;
+          border:1px solid #ccc;
+          margin-left:10px;
+          margin-top:15px;
+          color:inherit;
+          opacity:0.75;
+        }
+      }
+    }
+    .home-footer-question {
+      ul li{
+      list-style: none;
+      }
+    }
+    .home-footer-branch{
+      .brach-x{
+        .brach-title{
+          color: black;
+          font-size: 15px;
+          font-weight: bold;
+          margin: 5px 0;
+        }
+        .brach-title-description{
+          color: black;
+          font-size: 12px;
+          margin: 5px 0;
+        }
+      }
+    }
+  }
+  .copyright {
+      background: #06a9b1;
+      color: #fff;
+      text-align : center;
+      align-items: center;
+      padding-top: 16px;
+      height: 80px;
+      display: flex;
+      flex-direction: column;
+    }
+}

@@ -1,0 +1,190 @@
+{
+    "home-header":{
+        "specialty":"Medical specialty",
+        "search-doctor": "Find a doctor by specialty",
+        "health-facility":"Health Facility",
+        "select-room":"Choose hospital clinic",
+        "doctor":"Doctor",
+        "select-doctor":"Choose a good doctor",
+        "fee":"Examination package",
+        "check-health":"General health check",
+        "support": "Support",
+        "welcome": "Welcome"
+    },
+    "menu": {
+        "admin": {
+          "manage-user": "Users System",
+          "manage-doctor": "Manage doctors",
+          "manage-admin": "Manage admins",
+          "crud": "CRUD user",
+          "crud-redux": "Manage Users System",
+          "clinic": "Clinics",
+          "manage-clinic": "Manage clinics",
+          "specialty": "Specialties",
+          "manage-specialty": "Manage specialties"
+        },
+        "doctor": {
+            "doctor-page": "Doctor's Manage Page",
+            "manage-schedule": "Manage Doctor's Schedule",
+            "manage-patient": "Manage Doctor's Patient",
+            "manage-patient-success": "Manage Doctor's Success Patient"
+        },
+        "teststaff" : {
+            "teststaff-page": "Test Staff's Manage Page",
+            "testing-page": "Testing Patient Manage",
+            "test-done-page": "Tested Patient Manage"
+        }
+    },
+    "manage-user": {
+        "add": "Add a new user",
+        "email": "Email",
+        "password": "Password",
+        "first-name": "First name",
+        "last-name": "Last name",
+        "phone-number": "Phone number",
+        "address": "Address",
+        "gender": "Gender",
+        "position": "Position",
+        "role": "Role",
+        "image": "Avatar",
+        "save": "Save user",
+        "edit": "Save change"
+    },
+    "manage-clinic": {
+        "add": "Add new clinic"
+      },
+    "homepage": {
+        "outstanding-doctor": "Our Doctor",
+        "more-info": "More info",
+        "popular-specialty": "Our Specialties",
+        "health-facilities": "Choose the Health Facilities right now!"
+      },
+    "static": {
+        "doctors": "Doctors",
+        "health-facilities": "Health Facilities",
+        "bookings": "Bookings",
+        "specialties": "Specialties"
+    },
+    "manage-schedule": {
+        "title": "Manage doctor's examination plan",
+        "choose-doctor": "Doctor",
+        "choose-date": "Choose Date",
+        "save": "Save Information",
+        "choose-schedule": "Choose Schedule",
+        "detail-schedule": "Doctor's Detail Schedule",
+        "stt": "STT",
+        "time": "Time",
+        "action": "Action",
+        "see-detail": "See details",
+        "patientId": "Patient's Id",
+        "name": "Name",
+        "status": "Status",
+        "email": "Email",
+        "phone": "Phone",
+        "cancel": "Cancel",
+        "close": "Close",
+        "gender": "Gender",
+        "address": "Address",
+        "manage-patient": "Manage Patient",
+        "manage-success-patient": "Manage Success Patient",
+        "send-remedy": "Send Remedy",
+        "no-data": "No Data",
+        "upload": "Upload",
+        "not-book": "The schedule hasn't been booking yet",
+        "too-late": "It's too late to choose a schedule for today"
+    },
+    "patient": {
+        "detail-doctor": {
+          "schedule": "Schedule",
+          "no-schedule": "The doctor does not have an appointment during this time, please choose another time!",
+          "choose": "Choose ",
+          "book-free": " and book (free)",
+          "available": "Available schedule",
+          "unavailable": "Booked schedule"
+        },
+    "extra-infor-doctor": {
+        "text-address": "Address of examination",
+        "price": "Examination price:",
+        "detail": "See details",
+        "payment": "The patient can pay the cost in the form of: ",
+        "hide-price": "Hide price list"
+        },
+    "booking-modal": {
+            "title": "Information to book a medical appointment",
+            "fullName": "Full name",
+            "phoneNumber": "Phone Number",
+            "email": "Email",
+            "address": "Address",
+            "reason": "Reason for examination",
+            "birthday": "Date of birth",
+            "gender": "Genders",
+            "btnConfirm": "Confirm",
+            "btnCancel": "Cancel",
+            "priceBooking": "Free booking",
+            "price": "Price: "
+        }
+    },
+
+    "admin": {
+        "manage-doctor": {
+        "title": "Create more information doctors",
+        "select-doctor": "Select doctor",
+        "intro": "Introduction:",
+        "add": "Create Information",
+        "save": "Save Information",
+        "price": "Price",
+        "payment": "Payment",
+        "province": "Province",
+        "nameClinic": "Clinic's name",
+        "addressClinic": "Clinic's address",
+        "note": "Note",
+        "specialty": "Specialty",
+        "select-clinic": "Clinic"
+        }
+    },
+    "system": {
+        "admin": {
+            "manage-user": "Manage User",
+            "add-new": "Add New",
+            "stt": "STT",
+            "email": "Email",
+            "full-name": "Full name",
+            "phoneNumber":"Phone Number",
+            "address": "Address",
+            "position": "Position",
+            "action": "Action",
+            "upload": "Upload",
+            "save": "Save",
+            "close": "Close"
+        },
+        "clinic": {
+            "manage-clinic": "Manage Clinic",
+            "stt": "STT",
+            "clinic-name": "Clinic's Name",
+            "clinic-address": "Clinic's Address",
+            "clinic-information": "Clinic's Information",
+            "clinic-action": "Action",
+            "clinic-image": "Clinic's Image",
+            "save": "Save",
+            "close": "Close",
+            "add-new": "Add New",
+            "edit": "Edit Clinic's Information",
+            "add": "Add New Clinic",
+            "clinic-province": "Clinic's Province"
+        },
+        "specialty": {
+            "manage-specialty": "Manage Specialty",
+            "stt": "STT",
+            "specialty-name": "Specialty's Name",
+            "specialty-address": "Specialty's Address",
+            "specialty-information": "Specialty's Information",
+            "specialty-action": "Action",
+            "specialty-image": "Specialty's Image",
+            "save": "Save",
+            "close": "Close",
+            "add-new": "Add New",
+            "edit": "Edit Specialty's Information",
+            "add": "Add New Specialty"
+        }
+    }
+}

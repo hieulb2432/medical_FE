@@ -1,0 +1,17 @@
+@import "../../styles/common.scss";
+
+.nav-container {
+    // position: sticky;
+    // left: 0;
+    height: 100vh;
+    z-index: 209;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    color: $common-text-color;
+    position: relative;
+    box-shadow: 3px 0 3px rgba(0, 0, 0, 0.1);
+
+
+}

@@ -1,0 +1,44 @@
+
+
+.booking-modal-container {
+    /* Your existing modal styles here */
+  
+    .patient-test-image {
+      /* Your existing styles here */
+  
+      .thumbnail-image {
+        /* Your existing styles here */
+        cursor: pointer;
+        position: relative;
+        background-size: contain; /* Change 'cover' to 'contain' */
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+        height: 100px; /* Set a fixed height to control the thumbnail size */
+      }
+    }
+  
+    /* Add styles for the lightbox */
+    .ril-outer {
+      z-index: 1050; /* Higher than modal's z-index */
+    }
+  
+    .ril-inner {
+      padding: 10px;
+    }
+  
+    .ril-toolbar {
+      background: rgba(0, 0, 0, 0.6);
+      border-bottom: none;
+    }
+  
+    .ril-image-current {
+      max-height: 80vh; /* Adjust the max-height as needed */
+    }
+  
+    .ril-caption {
+      color: #fff;
+      text-align: center;
+    }
+  }
+  
