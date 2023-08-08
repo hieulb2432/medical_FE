@@ -1,6 +1,6 @@
 const config = {
     api: {
-        API_BASE_URL: "https://medical-center-be.onrender.com",
+        API_BASE_URL: "https://medical-be.onrender.com",
         ROUTER_BASE_NAME: null,
     },
     app: {
