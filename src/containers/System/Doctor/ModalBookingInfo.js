@@ -52,8 +52,8 @@ class ModalBookingInfo extends Component {
         })
         toast.success('Hủy lịch khám thành công. Đã gửi email tới bệnh nhân!');
         this.props.toggle();
-      } else {
-          toast.error('Lịch khám này đã hoàn thành hoặc đã hủy. Không thể hủy lịch khám này!');
+      } else if (res && res.errCode === 2) {
+        toast.error('Sắp đến giờ khám. Không thể hủy lịch khám này!');
       }
     }
 
