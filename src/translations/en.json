@@ -57,8 +57,28 @@
         "outstanding-doctor": "Our Doctor",
         "more-info": "More info",
         "popular-specialty": "Our Specialties",
-        "health-facilities": "Choose the Health Facilities right now!"
-      },
+        "health-facilities": "Choose the Health Facilities right now!",
+        "history": "Check the booking history here"
+    },
+  "search-history": {
+      "getcode": "Get Code",
+      "code": "Input your code",
+      "search": "Search",
+      "patient-infor": "Patient's Infor",
+      "see-medical-record": "See the Medical Record",
+      "name": "Patient's name",
+      "phone": "Phone",
+      "address": "Address",
+      "booking-history": "Booking History",
+      "date": "Date",
+      "time": "Time",
+      "doctor": "Doctor",
+      "specialty": "Specialty",
+      "health-facility": "Health Facility",
+      "action": "Action", 
+      "cancel": "Cancel",
+      "no-data":"No Data"
+  },
     "static": {
         "doctors": "Doctors",
         "health-facilities": "Health Facilities",

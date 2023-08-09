@@ -71,8 +71,28 @@
     "outstanding-doctor": "Các bác sĩ của chúng tôi",
     "more-info": "Xem thêm",
     "popular-specialty": "Các chuyên khoa của chúng tôi",
-    "health-facilities": "Chọn ngay cơ sở y tế bạn muốn khám"
+    "health-facilities": "Chọn ngay cơ sở y tế bạn muốn khám",
+    "history": "Xem ngay lịch sử đặt lịch tại đây"
   },
+"search-history": {
+    "getcode": "Lấy mã",
+    "code": "Nhập mã của bạn",
+    "search": "Tìm kiếm",
+    "patient-infor": "Thông tin bệnh nhân",
+    "see-medical-record": "Xem hồ sơ bệnh án",
+    "name": "Họ và tên",
+    "phone": "Số điện thoại",
+    "address": "Địa chỉ liên lạc",
+    "booking-history": "Lịch sử đặt lịch",
+    "date": "Ngày",
+    "time": "Thời gian",
+    "doctor": "Bác sĩ",
+    "specialty": "Chuyên môn",
+    "health-facility": "Cơ sở y tế",
+    "action": "Thao tác",
+    "cancel": "Hủy lịch",
+    "no-data":"Không có dữ liệu"
+},
   "static": {
     "doctors": "Bác sĩ",
     "health-facilities": "Cơ sở y tế",

@@ -201,7 +201,7 @@ class SearchHistory extends Component {
                 <div className="row g-3">
 
                 <div className="section-header col-12">
-                <h2 className="title-section">Xem lịch sử đặt lịch khám</h2>
+                <h2 className="title-section"><FormattedMessage id="homepage.history"/></h2>
                 </div>
                   
                   <div className="col-6">
@@ -216,12 +216,12 @@ class SearchHistory extends Component {
 
                   <div className="col-6 getCode-btn">
                     <Button color="primary" className="px-3" onClick={this.handleGetCode}>
-                        Lấy mã Code
+                      <FormattedMessage id="search-history.getcode"/>
                     </Button>
                   </div>
 
                   <div className="col-12">
-                    <label className="form-label">Mã code</label>
+                    <label className="form-label"><FormattedMessage id="search-history.code"/></label>
                     <input
                       type="text"
                       className="form-control form-control-customize"
@@ -232,7 +232,7 @@ class SearchHistory extends Component {
 
                   <div className="col-11 search-btn">
                     <Button color="primary" className="px-3" onClick={this.handleSearch}>
-                        Tìm kiếm
+                    <FormattedMessage id="search-history.search"/>
                     </Button>
                   </div>
 
@@ -247,34 +247,34 @@ class SearchHistory extends Component {
                     <div className="search-info-user">
                       <div className="user-info">
                         <div className='user-infor-up' style={{display: 'flex', justifyContent: 'space-between'}}>
-                        <div className="user-info-title">Thông tin bệnh nhân</div>
+                        <div className="user-info-title"><FormattedMessage id="search-history.patient-infor"/></div>
                         <div>
                           <Button
                             color="primary"
                             className="px-3"
                             onClick={this.handleMedicalRecord}
-                          > Xem hồ sơ bệnh án 
+                          > <FormattedMessage id="search-history.see-medical-record"/>
                           </Button>
                         </div>
                         </div>
                         <hr></hr>
                         <div className="user-info-content">
                               <div className="user-info-name">
-                                <div className="user-info-name-title"><b>Họ tên bệnh nhân:</b> {dataHistory.lastName} {dataHistory.firstName}</div>
+                                <div className="user-info-name-title"><b><FormattedMessage id="search-history.name"/>:</b> {dataHistory.lastName} {dataHistory.firstName}</div>
                               </div>
 
                               <div className="user-info-phone">
-                                <div className="user-info-phone-title"><b>Số điện thoại:</b> {dataHistory.phoneNumber}</div>
+                                <div className="user-info-phone-title"><b><FormattedMessage id="search-history.phone"/>:</b> {dataHistory.phoneNumber}</div>
                               </div>
                               
                               <div className="user-info-address">
-                                <div className="user-info-address-title"><b>Địa chỉ:</b> {dataHistory.address}</div>
+                                <div className="user-info-address-title"><b><FormattedMessage id="search-history.address"/>:</b> {dataHistory.address}</div>
                               </div>
                             </div>
                       </div>
                       
                       <div className="user-history">
-                        <div className="user-history-title">Lịch sử khám bệnh</div>
+                        <div className="user-history-title"><FormattedMessage id="search-history.booking-history"/></div>
                         <hr></hr>
                         <div className="user-history-content">
                         <div className='table-manage-patient'>
@@ -282,12 +282,12 @@ class SearchHistory extends Component {
                                   <tbody>
                                       <tr>
                                           <th>STT</th>
-                                          <th>Ngày</th>
-                                          <th>Thời gian</th>
-                                          <th>Bác sĩ</th>
-                                          <th>Chuyên khoa</th>
-                                          <th>Cở sở y tế</th>
-                                          <th>Thao tác</th>
+                                          <th><FormattedMessage id="search-history.date"/></th>
+                                          <th><FormattedMessage id="search-history.time"/></th>
+                                          <th><FormattedMessage id="search-history.doctor"/></th>
+                                          <th><FormattedMessage id="search-history.specialty"/></th>
+                                          <th><FormattedMessage id="search-history.health-facility"/></th>
+                                          <th><FormattedMessage id="search-history.action"/></th>
                                       </tr>
                                       {dataHistory.patientData && dataHistory.patientData.length > 0? 
                                         dataHistory.patientData.slice(startIndex, endIndex + 1).map((item, index) => {
@@ -302,7 +302,7 @@ class SearchHistory extends Component {
                                           <td>{item.doctorDataUser.Doctor_Infor.clinicData.name}</td>
                                           {item.statusId === 'S1' || item.statusId === 'S2' ? (
                                             <td style={{ textAlign: 'center' }}>
-                                              <Button onClick={() => this.handleCancel(item)}>Hủy lịch</Button>
+                                              <Button onClick={() => this.handleCancel(item)}><FormattedMessage id="search-history.cancel"/></Button>
                                             </td>
                                           ) : (
                                             <td style={{ textAlign: 'center' }}>-</td>
@@ -313,7 +313,7 @@ class SearchHistory extends Component {
                                       :
                                       <tr>
                                           <td colSpan='9' style={{textAlign: "center"}}>
-                                              Không có dữ liệu
+                                          <FormattedMessage id="search-history.no-data"/>
                                           </td>
                                       </tr>
                                     }
